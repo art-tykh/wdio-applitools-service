@@ -1,0 +1,40 @@
+{
+  "name": "wdio-applitools-service",
+  "version": "0.0.1",
+  "description": "Integration of applitools.eyes for WebdriverIO",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klamping/wdio-applitools-service.git"
+  },
+  "keywords": [
+    "webdriverio",
+    "wdio",
+    "applitools",
+    "eyes",
+    "test",
+    "automation",
+    "cloud",
+    "wdio-service",
+    "visual",
+    "eyes.selenium"
+  ],
+  "author": "Kevin Lamping",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/klamping/wdio-applitools-service/issues"
+  },
+  "homepage": "https://github.com/klamping/wdio-applitools-service#readme",
+  "dependencies": {
+    "eyes.selenium": "0.0.75"
+  },
+  "contributors": [
+    "Kevin Lamping <klamping@gmail.com>"
+  ]
+}
