@@ -20,6 +20,7 @@ export.config = {
     matchTimeout: 2000,
     matchLevel: "Strict",
     forceFullPageScreenshot: false,
+    hideScrollbars: true,
     useHttpProxy
   }
   path: '/',
