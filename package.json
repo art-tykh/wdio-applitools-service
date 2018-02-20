@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cd test && wdio"
   },
   "repository": {
     "type": "git",
@@ -32,10 +32,17 @@
   },
   "homepage": "https://github.com/klamping/wdio-applitools-service#readme",
   "dependencies": {
-    "eyes.selenium": "0.0.76",
-    "selenium-webdriver": "^3.6.0"
+    "chromedriver": "^2.35.0",
+    "eyes.selenium": "0.0.77",
+    "selenium-webdriver": "^3.6.0",
+    "webdriverio": "^4.10.2"
   },
   "contributors": [
     "Kevin Lamping <klamping@gmail.com>"
-  ]
+  ],
+  "devDependencies": {
+    "wdio-chromedriver-service": "^0.1.2",
+    "wdio-mocha-framework": "^0.5.12",
+    "wdio-spec-reporter": "^0.1.3"
+  }
 }

@@ -22,10 +22,9 @@ export.config = {
     forceFullPageScreenshot: false,
     hideScrollbars: true,
     useHttpProxy
-  }
-  path: '/',
+  },
   // ...
-  services: ['chromedriver'],
+  services: ['applitools'],
   // ...
 };
 ```
