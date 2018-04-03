@@ -135,7 +135,7 @@ exports.config = {
     // See the full list at http://mochajs.org/
     mochaOpts: {
         ui: 'bdd',
-        timeout: 60000
+        timeout: 20000
     },
     //
     // =====
@@ -211,8 +211,9 @@ exports.config = {
      * Hook that gets executed after the suite has ended
      * @param {Object} suite suite details
      */
-    // afterSuite: function (suite) {
-    // },
+    afterSuite: function (suite) {
+        console.log("wdio.conf.js :215", browser.applitoolsUrl);
+    },
 
     /**
      * Runs after a WebdriverIO command gets executed
